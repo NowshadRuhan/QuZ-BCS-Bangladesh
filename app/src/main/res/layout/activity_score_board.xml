@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/scBaxck"
+    tools:context=".ScoreBoard">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/brown"
+        android:layout_height="79dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Board"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="27dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+                <TextView
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Developed by"
+                    android:background="@drawable/buttonforit"
+                    android:textSize="24sp"
+                    android:textColor="@color/white"
+                    android:padding="9dp"
+                    android:layout_weight="1.4"
+                    android:textStyle="bold" />
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Appstic IT"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1.2"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/scr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exam Score is : "
+                android:textColor="@color/black"
+                android:layout_weight="1.5"
+                android:textSize="24sp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:layout_marginBottom="30dp"
+                    android:layout_weight="1.5"
+                    android:textColor="@color/brown"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/scoreBoard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Exit From Exam"
+                android:textSize="24sp"
+                android:layout_marginTop="-70dp"
+                android:gravity="center"
+                android:textColor="@color/bc"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/okBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/greenforbutton"
+                android:textStyle="bold"
+                android:text="OK" />
+        </LinearLayout>
+
+</LinearLayout>

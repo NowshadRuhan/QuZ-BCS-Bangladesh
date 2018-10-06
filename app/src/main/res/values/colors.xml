@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4572e6</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#f60503</color>
+    <color name="black">#000000</color>
+    <color name="white">#f1ecec</color>
+    <color name="bc">#006571</color>
+    <color name="cream">#c5eae1</color>
+    <color name="orang">#FFD37314</color>
+    <color name="green">#6cf577</color>
+    <color name="backgr">#04163e</color>
+    <color name="Golapi">#df316b</color>
+    <color name="brown">#230305</color>
+    <color name="scBaxck">#fdf49a</color>
+    <color name="br">#0f0655</color>
+    <color name="startbackground">#a8e9e3</color>
+    <color name="startBut">#790779</color>
+    <color name="questionbut">#240877</color>
+</resources>
